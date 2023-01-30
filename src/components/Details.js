@@ -23,7 +23,7 @@ function Details() {
             <path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z" />
             <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z" />
           </svg>
-          <span className="ml-3">Dashboard</span>
+          <span className="ml-3"><b>Portfolio </b></span>
         </a>
       </li>
       <li className="pt-8">
@@ -40,7 +40,7 @@ function Details() {
           >
             <path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
           </svg>
-          <span className="flex-1 ml-3 whitespace-nowrap">Kanban</span>
+          <span className="flex-1 ml-3 whitespace-nowrap"><b> Skills</b></span>
           <span className="inline-flex items-center justify-center px-2 ml-3 text-sm font-medium text-gray-800 bg-gray-200 rounded-full dark:bg-gray-700 dark:text-gray-300">
             Pro
           </span>
@@ -61,9 +61,9 @@ function Details() {
             <path d="M8.707 7.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l2-2a1 1 0 00-1.414-1.414L11 7.586V3a1 1 0 10-2 0v4.586l-.293-.293z" />
             <path d="M3 5a2 2 0 012-2h1a1 1 0 010 2H5v7h2l1 2h4l1-2h2V5h-1a1 1 0 110-2h1a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2V5z" />
           </svg>
-          <span className="flex-1 ml-3 whitespace-nowrap">Inbox</span>
+          <span className="flex-1 ml-3 whitespace-nowrap"><b>Works </b></span>
           <span className="inline-flex items-center justify-center w-3 h-3 p-3 ml-3 text-sm font-medium bg-blue-100 text-blue-800 rounded-full dark:bg-blue-900 dark:text-blue-300">
-            3
+            999+
           </span>
         </a>
       </li>
@@ -85,7 +85,7 @@ function Details() {
               clipRule="evenodd"
             />
           </svg>
-          <span className="flex-1 ml-3 whitespace-nowrap">Users</span>
+          <span className="flex-1 ml-3 whitespace-nowrap"> <b>Team</b> </span>
         </a>
       </li>
       <li className="pt-8">
@@ -106,7 +106,7 @@ function Details() {
               clipRule="evenodd"
             />
           </svg>
-          <span className="flex-1 ml-3 whitespace-nowrap">Products</span>
+          <span className="flex-1 ml-3 whitespace-nowrap"> <b>Projects</b> </span>
         </a>
       </li>
       <li className="pt-8">
@@ -127,7 +127,7 @@ function Details() {
               clipRule="evenodd"
             />
           </svg>
-          <span className="flex-1 ml-3 whitespace-nowrap">Sign In</span>
+          <span className="flex-1 ml-3 whitespace-nowrap"> <b>Join In </b></span>
         </a>
       </li>
       <li className="pt-8">
@@ -148,7 +148,7 @@ function Details() {
               clipRule="evenodd"
             />
           </svg>
-          <span className="flex-1 ml-3 whitespace-nowrap">Sign Up</span>
+          <span className="flex-1 ml-3 whitespace-nowrap"><b>Sign Up</b></span>
         </a>
       </li>
     </ul>
@@ -173,7 +173,7 @@ function Details() {
               d="M378.7 32H133.3L256 182.7L378.7 32zM512 192l-107.4-141.3L289.6 192H512zM107.4 50.67L0 192h222.4L107.4 50.67zM244.3 474.9C247.3 478.2 251.6 480 256 480s8.653-1.828 11.67-5.062L510.6 224H1.365L244.3 474.9z"
             />
           </svg>
-          <span className="ml-4">Upgrade to Pro</span>
+          <span className="ml-4"><b> About Knowledge </b></span>
         </a>
       </li>
       <li className="pt-8">
@@ -195,7 +195,7 @@ function Details() {
               clipRule="evenodd"
             />
           </svg>
-          <span className="ml-3">Documentation</span>
+          <span className="ml-3"><b> Front-End </b></span>
         </a>
       </li>
       <li className="pt-8">
@@ -212,7 +212,7 @@ function Details() {
           >
             <path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z" />
           </svg>
-          <span className="ml-3">Components</span>
+          <span className="ml-3"> <b> Back-End </b></span>
         </a>
       </li>
       <li className="pt-8">
@@ -233,11 +233,12 @@ function Details() {
               clipRule="evenodd"
             />
           </svg>
-          <span className="ml-3">Help</span>
-          
+          <span className="ml-3"> <b> Help</b></span>       
         </a>
+       
       </li>
     </ul>
+    
   </div>
 </aside>
 
